@@ -1,0 +1,149 @@
+.header {
+    background-image: url('assets/table_back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 70px;
+    font-family: impact;
+    text-align: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-top: 0%;
+    letter-spacing: 5px;
+}
+
+marquee {
+    padding-top: 10px;
+    background: linear-gradient(rgb(120, 20, 120), rgb(0, 0, 0))
+}
+
+.table {
+    background-image: url('assets/table_back.jpg');
+    color: white;
+}
+
+th {
+    color: rgb(114, 112, 112);
+}
+
+h1 {
+    padding-top: 1px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(3, 3, 3);
+    background: linear-gradient( rgb(114, 64, 64), rgb(202, 196, 196));
+    width: 18%;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: justify;
+    margin-right: 45px;
+    width: 50%;
+    height: 50%;
+    font-size: 150%;
+}
+
+.click {
+    height: 50px;
+    width: 100px;
+    border-radius: 60px;
+    font-size: 30px;
+    background-color: rgb(38, 107, 177);
+    text-align: center;
+    font-family: Calibri;
+    font-size: 27;
+    transition: background-color 2s, color 4s;
+    border: none;
+    cursor: pointer;
+}
+
+.click:hover {
+    color: rgb(76, 68, 68);
+    background-color: rgb(65, 127, 189);
+    ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+}
+
+.click:active {
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+    opacity: 0.5;
+}
+
+.log {
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.login {
+    height: 50px;
+    width: 100px;
+    border-radius: 60px;
+    font-size: 30px;
+    background-color: rgb(38, 107, 177);
+    text-align: center;
+    font-family: Calibri;
+    font-size: 27;
+    transition: background-color 2s, color 4s;
+    border: none;
+    cursor: pointer;
+}
+
+.login:hover {
+    color: rgb(76, 68, 68);
+    background-color: rgb(65, 127, 189);
+    ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+}
+
+.login:active {
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+    opacity: 0.5;
+}
+
+table {
+    color: black;
+    font-size: 30px;
+}
+
+body {
+    background-image: url("assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    opacity: 0.8;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.register {
+    width: 100%;
+    padding-left: 70%;
+}
+
+.login {}
+
+li {
+    font-size: 200%;
+    list-style-type: none;
+}
+
+li::before {
+    content: " ";
+    display: inline-block;
+    margin-right: 15px;
+    height: 25px;
+    width: 25px;
+    background-image: url("assets/medal-removebg-preview__1_-removebg-preview.png");
+    background-size: cover;
+}
